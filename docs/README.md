@@ -33,7 +33,11 @@ lorem  ajkas dlkjas ldkja slkdj aslkdj aslkdj aslkjd lk
 
 ## Hackathons
 
+## Datasets
+<publications url="https://api.zotero.org/groups/2456513/items?format=json&include=data,bib&style=apa&tag=dataset"></publications>
+
+
 ## Publications
-<publications></publications>
+<publications url="https://api.zotero.org/groups/2456513/items?format=json&include=data,bib&style=apa&tag=-dataset"></publications>
 
 ## Contact
