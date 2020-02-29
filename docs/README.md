@@ -8,30 +8,32 @@ heroImage: ./hero.jpg
 heroText: Fabian-Robert Stöter
 tagline: Audio-AI Researcher, Inria, Montpellier
 features:
-  - title: Theme 1
-    details: 
+  - title: I do
+    details: lorem ask dlakj lakjs dlkaj sldkja lsdkj aslkdj alskjd laksj dlakj sdkl
   - title: Theme 2
     details: I love writing tech articles to share my knowledge on frontend frameworks, libraries, best practices and more.
-  - title: Theme 3
+  - title: Eco-ML
     details: 
 footer: Made with VuePress ♥️
 ---
 
-# About my research
+# About me
 
-I do ...
-
-Previously, I obtained my , and a postdoctoral research scholar in the Center for Jazz Studies and LabROSA at Columbia University.
-
-I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) in Germany. My dissertation titled machine learning approaches to music similarity.
+I am a postdoctoral researcher at the [Scientic Data Management (Zenith)](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage) team at Inria in Montpellier France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled __Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency__ can be viewed [here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114).
 
 # Research Projects
 
-# Contact
+# Students
 
 # Software
 
-# Hackathons
+### musdb
+
+### museval
+
+### open-unmix
+
+# Hacks
 
 # Datasets
 <publications url="https://api.zotero.org/users/6408178/publications/items?format=json&include=data,bib&style=apa-cv&tag=dataset&sort=date"></publications>

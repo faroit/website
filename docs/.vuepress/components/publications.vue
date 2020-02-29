@@ -1,9 +1,11 @@
 
 <template>
     <div>
-        <ul v-for="item in pubs">
-            <li v-html="item.bib"></li>
-        </ul>
+        <div v-for="item in pubs">
+            <h3 class="title">{{item.data.title}} <Badge :text="item.data.itemType" type="warn"/></h3>
+            <span v-for="author in item.data.creators">{{author.firstName}} {{author.lastName}}, </span>
+            <a href="#">PDF</a> <a href="#">Demo</a> <a href="#">Website</a>
+        </div>
     </div>
 </template>
 <script>
@@ -32,6 +34,9 @@ export default {
 </script>
 
 <style>
+.title {
+    margin-bottom: 0px;
+}
 .csl-bib-body {
     line-height: 2; 
     padding-left: 0em!important; 
