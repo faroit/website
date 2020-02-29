@@ -1,6 +1,6 @@
 // .vuepress/config.js
 module.exports = {
-    // base: "/website/",
+    base: "/website/",
     themeConfig: {
         sidebar: [
             '/',
