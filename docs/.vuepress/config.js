@@ -1,5 +1,10 @@
 // .vuepress/config.js
 module.exports = {
+    base: "/website/",
+    plugins: [
+        [
+        ]
+    ],
     themeConfig: {
         sidebar: [
             '/',
@@ -7,6 +12,7 @@ module.exports = {
         ],
         nav: [
             { text: 'Home', link: '/' },
+            { text: 'CV', link: '/cv' },
             { text: 'Software', link: '/#software' },
             { text: 'Datasets', link: '/#datasets' },
             { text: 'Publications', link: '/#publications' },

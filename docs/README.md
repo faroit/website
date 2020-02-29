@@ -17,22 +17,26 @@ features:
 footer: Made with VuePress ♥️
 ---
 
-# Hello VuePress
+# About my research
 
-## About my research
+I do ...
 
+Previously, I obtained my , and a postdoctoral research scholar in the Center for Jazz Studies and LabROSA at Columbia University.
 
-## Research Projects
+I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) in Germany. My dissertation titled machine learning approaches to music similarity.
 
-## Software
+# Research Projects
 
-## Hackathons
+# Contact
 
-## Datasets
+# Software
+
+# Hackathons
+
+# Datasets
 <publications url="https://api.zotero.org/users/6408178/publications/items?format=json&include=data,bib&style=apa&tag=dataset"></publications>
 
-
-## Publications
+# Publications
 <publications url="https://api.zotero.org/users/6408178/publications/items?format=json&include=data,bib&style=apa&tag=-dataset"></publications>
 
-## Contact
+# Contact
