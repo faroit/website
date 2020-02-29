@@ -1,10 +1,6 @@
 // .vuepress/config.js
 module.exports = {
-    base: "/website/",
-    plugins: [
-        [
-        ]
-    ],
+    // base: "/website/",
     themeConfig: {
         sidebar: [
             '/',
