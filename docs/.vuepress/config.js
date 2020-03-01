@@ -1,6 +1,7 @@
 // .vuepress/config.js
 module.exports = {
     base: "/website/",
+    plugins: ['@vuepress/nprogress'],
     themeConfig: {
         sidebar: [
             '/',

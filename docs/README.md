@@ -13,7 +13,7 @@ features:
   - title: Theme 2
     details: I love writing tech articles to share my knowledge on frontend frameworks, libraries, best practices and more.
   - title: Eco-ML
-    details: 
+    details: I love writing tech articles to share my knowledge on frontend frameworks, libraries, best practices.
 footer: Made with VuePress ♥️
 ---
 
@@ -36,9 +36,9 @@ I am a postdoctoral researcher at the [Scientic Data Management (Zenith)](http:/
 # Hacks
 
 # Datasets
-<publications url="https://api.zotero.org/users/6408178/publications/items?format=json&include=data,bib&style=apa-cv&tag=dataset&sort=date"></publications>
+<publications zotero_url="https://api.zotero.org/users/6408178/publications/items?format=json&include=data,csljson&tag=dataset&sort=date"></publications>
 
 # Publications
-<publications url="https://api.zotero.org/users/6408178/publications/items?format=json&include=data,bib&style=apa-cv&tag=-dataset&sort=date"></publications>
+<publications zotero_url="https://api.zotero.org/users/6408178/publications/items?format=json&include=data,csljson&tag=-dataset&sort=date"></publications>
 
 # Contact
