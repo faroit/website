@@ -37,5 +37,8 @@ I am a postdoctoral researcher at the [Scientic Data Management (Zenith)](http:/
 
 # Datasets
 
+# Publications
+
+<publications zotero_id="6408178"></publications>
 
 # Contact
