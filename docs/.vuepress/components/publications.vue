@@ -4,7 +4,7 @@
         <div v-for="item in pubs">
             <h3 class="title">{{item.csljson.title}} <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/></h3>
             <span v-for="author in item.csljson.author">{{author.given}} {{author.family}}, </span>
-            <a href="#">PDF</a> <a v-if="item.csljson.DOI" href="#">Demo</a> 
+            <a v-if="getfields(item.data.extra).pdf" :href="getfields(item.data.extra).pdf">PDF</a> <a v-if="item.csljson.DOI" :href="item.csljson.DOI">DOI</a> 
             <a v-if="item.csljson.URL" :href="item.csljson.URL">Website</a> 
             <a v-if="getfields(item.data.extra).github" :href="getfields(item.data.extra).github">Code</a> 
             <a :href="exportbib(item.key, 'bibtex')">Bibtex</a> 
@@ -20,14 +20,16 @@ const axios = require('axios')
 export default {
   data () {
       return {
-          pubs: []
+          pubs: [],
+          api_base: "https://api.zotero.org/users/"
       }
   },
   props: [
-      'zotero_url'
+      'zotero_id'
   ],
-  beforeMount() {
-    axios.get(this.zotero_url)
+  mounted() {
+    var request_url = `${this.api_base}/${this.zotero_id}/publications/items?format=json&include=data,csljson&sort=date&limit=100`
+    axios.get(request_url)
     .then(response => {
        this.pubs = response.data
     })
@@ -37,7 +39,7 @@ export default {
   },
   methods: {
     exportbib: function (key, format) {
-      return `https://api.zotero.org/users/6408178/publications/items/${key}?format=${format}`
+      return `${this.api_base}/${this.zotero_id}/publications/items/${key}?format=${format}`
     },
     csltype: function (type) {
         switch(type) {
@@ -69,7 +71,6 @@ export default {
         var fields = {}
 		var ex = extra.replace(/^([A-Za-z \-]+)(:\s*.+)/gm, function (_, field, value) {
             var field = field.toLowerCase().replace(/ /g, '-');
-            console.log(value)
             return fields[field]= value.slice(2);
         });
         return fields;
