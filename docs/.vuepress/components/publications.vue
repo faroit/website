@@ -21,7 +21,7 @@ export default {
   data () {
       return {
           pubs: [],
-          api_base: "https://api.zotero.org/users/"
+          api_base: "https://api.zotero.org/users"
       }
   },
   props: [
