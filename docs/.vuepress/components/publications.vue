@@ -27,7 +27,7 @@ export default {
   props: [
       'zotero_id'
   ],
-  mounted() {
+  beforeMount() {
     var request_url = `${this.api_base}/${this.zotero_id}/publications/items?format=json&include=data,csljson&sort=date&limit=100`
     axios.get(request_url)
     .then(response => {
@@ -67,8 +67,11 @@ export default {
     },
     getfields: function (extra) {
         // code from https://github.com/zotero/zotero/blob/cbfa4be437fbe0451795a9a865ed163fa7cc2376/chrome/content/zotero/xpcom/cite.js
-        
         var fields = {}
+
+        if (extra === undefined) {
+            return fields;
+        }
 		var ex = extra.replace(/^([A-Za-z \-]+)(:\s*.+)/gm, function (_, field, value) {
             var field = field.toLowerCase().replace(/ /g, '-');
             return fields[field]= value.slice(2);

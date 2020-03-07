@@ -2,6 +2,9 @@
 module.exports = {
     base: "/website/",
     plugins: ['@vuepress/nprogress'],
+    head: [
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap' }]
+    ],
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
