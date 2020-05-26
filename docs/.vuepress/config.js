@@ -1,9 +1,23 @@
 // .vuepress/config.js
 module.exports = {
     base: "/website/",
-    plugins: ['@vuepress/nprogress'],
+    plugins: [
+        ['@vuepress/nprogress'],
+        [
+            'vuepress-plugin-mathjax',
+            {
+                target: 'svg',
+                macros: {
+                    '*': '\\times',
+                },
+            },
+        ],
+    ],
     head: [
-        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap' }]
+        [
+            'link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap' },
+            'link', { rel: 'stylesheet'}
+        ]
     ],
     themeConfig: {
         nav: [
