@@ -55,6 +55,8 @@ footer: Made with VuePress
 
 ## <img src='./images/pytorchlogo.svg' width="20rem"> open-unmix
 
+<iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/IxLnoy-GzqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <i class="fab fa-python"></i> musdb
 
 ## <i class="fab fa-python"></i> museval
@@ -64,7 +66,9 @@ footer: Made with VuePress
 
 # Open-Ressources
 
-## <i class="fab fa-python"></i> awesome-scietific-python-audio
+## <i class="fab fa-python"></i> awesome-scientific-python-audio
+## <i class="fab fa-python"></i> reproducible research for audio
+
 
 # Datasets
 

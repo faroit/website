@@ -2,15 +2,12 @@
 <template>
     <div>
         <div v-for="item in pubs">
-            {{ item.csljson.id }}
+            <!-- {{ item.csljson.id }} -->
             <!-- TODO: generated infinite loop: <p v-html="renderBib(item.csljson.id)"></p> -->
-            <h3 class="title">{{item.csljson.title}} <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/>            <a v-if="item.csljson.DOI" :href="'https://dx.doi.org/' + item.csljson.DOI">
-                <img 
-                    :src="'https://img.shields.io/static/v1?label=DOI&message=' + item.csljson.DOI + '&color=blue'" 
-                    alt="">
-            </a> 
+            <h3 class="title">{{item.csljson.title}} <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/> 
             </h3>
             <span v-for="author in item.csljson.author">{{author.given}} {{author.family}}, </span>
+            {{ item.csljson['container-title'] }}, {{ item.data.date }}
             <a v-if="getfields(item.data.extra).pdf" :href="getfields(item.data.extra).pdf">
                 <i class="fas fa-file-pdf"></i>
             </a> 
@@ -24,12 +21,16 @@
             <a :href="exportbib(item.key, 'csljson')">
                 <i class="fad fa-bookmark"></i> json
             </a> 
+            <a v-if="item.csljson.DOI" :href="'https://dx.doi.org/' + item.csljson.DOI">
+                <i class="fad fa-quote-right"></i> DOI
+            </a> 
+
         </div>
     </div>
 </template>
 <script>
 const axios = require('axios')
-import CSL from 'citeproc'
+// import CSL from 'citeproc'
 
 import '@fortawesome/fontawesome-pro/css/all.css'
 
@@ -46,11 +47,11 @@ export default {
       'zotero_id'
   ],
   beforeMount() {
-    var request_url = `${this.api_base}/${this.zotero_id}/publications/items?format=json&include=data,csljson&sort=date&limit=100`
+    var request_url = `${this.api_base}/${this.zotero_id}/publications/items?format=json&include=data,csljson&sort=date&limit=100&itemType=conferencePaper %7C%7C journalArticle`
     axios.get(request_url)
     .then(response => {
        this.pubs = response.data
-       this.createProcessor()
+        // TODO: this.createProcessor()
     })
     .catch(error => {
         console.log(error);
@@ -98,6 +99,7 @@ export default {
             this.citeproc.updateItems([key])
             var result = this.citeproc.makeBibliography()
             return result[1].join('\n')
+            let example = new Cite('Q21972834')
         }
     }
     ,
