@@ -106,7 +106,7 @@ export default {
     text-align center
     img
       max-width: 100%
-      max-height 280px
+      max-height 320px
       display block
       margin 3rem auto 1.5rem
     h1
