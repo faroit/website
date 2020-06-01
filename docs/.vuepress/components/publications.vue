@@ -7,7 +7,7 @@
             <h3 class="title">{{item.csljson.title}} <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/> 
             </h3>
             <span v-for="author in item.csljson.author">{{author.given}} {{author.family}}, </span>
-            {{ item.csljson['container-title'] }}, {{ item.data.date }}
+            <i>{{ item.csljson['container-title'] }}</i>, {{ item.data.date }}
             <a v-if="getfields(item.data.extra).pdf" :href="getfields(item.data.extra).pdf">
                 <i class="fas fa-file-pdf"></i>
             </a> 

@@ -15,11 +15,12 @@ module.exports = {
     ],
     head: [
         [
-            'link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap' },
-            'link', { rel: 'stylesheet'}
+            'link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap' }
         ]
     ],
     themeConfig: {
+        smoothScroll: true,
+        displayAllHeaders: true,
         nav: [
             { text: 'Home', link: '/' },
             { text: 'CV', link: '/cv' },

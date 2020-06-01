@@ -61,13 +61,13 @@
       </div>
     </div>
 
-    <Content class="theme-default-content custom" />
+    <Content class="theme-default-content" />
 
     <div
       v-if="data.footer"
+      v-html="data.footer"
       class="footer"
     >
-      {{ data.footer }}
     </div>
   </main>
 </template>
@@ -106,7 +106,7 @@ export default {
     text-align center
     img
       max-width: 100%
-      max-height 320px
+      max-height 380px
       display block
       margin 3rem auto 1.5rem
     h1
@@ -120,10 +120,11 @@ export default {
       color lighten($textColor, 40%)
     .social a
       display inline-block
-      width: 5rem
+      width: 4rem
       color: #CCCCCC
     .social a:hover
       color: $accentColor
+
     .action-button
       display inline-block
       font-size 1.2rem
@@ -162,7 +163,6 @@ export default {
     border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
-
 @media (max-width: $MQMobile)
   .home
     .features
@@ -170,14 +170,13 @@ export default {
     .feature
       max-width 100%
       padding 0 2.5rem
-
 @media (max-width: $MQMobileNarrow)
   .home
     padding-left 1.5rem
     padding-right 1.5rem
     .hero
       img
-        max-height 210px
+        height 280px
         margin 2rem auto 1.2rem
       h1
         font-size 2rem

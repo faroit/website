@@ -7,11 +7,11 @@ sidebarDepth: 2
 heroImage: ./hero.jpg
 heroText: Fabian-Robert Stöter
 social: 
-  <a href="https://twitter.com/faroit" alt="Twitter"><i class="fab fa-twitter fa-3x"></i></a> 
-  <a href="https://github.com/faroit" alt="Github"><i class="fab fa-github fa-3x"></i></a>
-  <a href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en" alt="Google Scholar"><i class="fas fa-graduation-cap fa-3x"></i></a>
-  <a href="mailto:fabian-robert.stoter@inria.fr" alt="Email"><i class="fas fa-envelope fa-3x"></i></a>
-  <a href="https://orcid.org/0000-0002-2534-1165" alt="Orcid"><i class="fab fa-orcid fa-3x"></i></a>
+  <a href="https://twitter.com/faroit" alt="Twitter"><i class="fab fa-twitter fa-2x"></i></a> 
+  <a href="https://github.com/faroit" alt="Github"><i class="fab fa-github fa-2x"></i></a>
+  <a href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en" alt="Google Scholar"><i class="fas fa-graduation-cap fa-2x"></i></a>
+  <a href="mailto:fabian-robert.stoter@inria.fr" alt="Email"><i class="fas fa-envelope fa-2x"></i></a>
+  <a href="https://orcid.org/0000-0002-2534-1165" alt="Orcid"><i class="fab fa-orcid fa-2x"></i></a>
 tagline: Audio-AI Researcher, Inria, Montpellier
 
 features:
@@ -27,10 +27,10 @@ features:
     fa: fad fa-leaf
     color: '#88A61F'
     details: I am involved in the citizen science project <a href="https://plantnet.org">Pl@antNet</a> dealing with large scale plant classification as part of the <a href="https://www.cos4cloud-eosc.eu">Cos4Cloud</a> 🇪🇺 project. I am also working on ML for ecoacoustics, analyzing sounds from <a href="https://audiolog.fr">mobile audio loggers</a> deployed on 🦓 in the wild.
-footer: Made with VuePress
+footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i> Website Code</a>
 ---
 
-# CV
+# About me
 
 <img src="frs.jpg" width="86" style="float:left; margin-right: 1em;"> Since 2018, I am a postdoctoral researcher at the [Scientic Data Management team (Zenith)](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage) at Inria in Montpellier, France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled __Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency__ can be viewed [here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [here](#).
 
@@ -80,7 +80,7 @@ footer: Made with VuePress
 
 ## <img src='./images/pytorchlogo.svg' width="20rem"> open-unmix
 
-<iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/IxLnoy-GzqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="" allowfullscreen></iframe>
+<iframe width="100%" height="300rem" src="https://www.youtube-nocookie.com/embed/IxLnoy-GzqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="" allowfullscreen></iframe>
 
 Open-Unmix, a deep neural network reference implementation ([PyTorch](https://github.com/sigsep/open-unmix-pytorch) and [NNabla](https://github.com/sigsep/open-unmix-nnabla)) for music source separation, applicable for researchers, audio engineers and artists. Open-Unmix provides ready-to-use models that allow users to separate pop music into four stems: vocals, drums, bass and the remaining other instruments. 
 
@@ -88,7 +88,7 @@ Open-Unmix, a deep neural network reference implementation ([PyTorch](https://gi
 
 ## <i class="fab fa-python"></i> musdb
 
-<img src="https://sigsep.github.io/assets/img/musheader.41c6bf29.png" width="640">
+<img src="https://sigsep.github.io/assets/img/musheader.41c6bf29.png" width="100%">
 
 A python package to parse and process the [MUSDB18 dataset](https://sigsep.github.io/musdb), the largest open access dataset for music source separation. The tool was originally developed for the [Music Separation task](sisec18.unmix.app) as part of the [Signal Separation Evaluation Campaign (SISEC)](https://sisec.inria.fr/). Using `musdb` users can quickly iterate over multi-track music datasets. In just three lines of code a subset of the MUSDB18 is automatically downloaded and can be parsed:
 
@@ -139,7 +139,7 @@ for track in mus:
 
 ## Magiclock 
 
-<img src="https://cloud.githubusercontent.com/assets/72940/16177370/e492626a-362a-11e6-9f66-2291040f98c1.gif" width="640">
+<img src="https://cloud.githubusercontent.com/assets/72940/16177370/e492626a-362a-11e6-9f66-2291040f98c1.gif" width="100%">
 
 Magiclock is an OS X app that uses haptic feedback (also called Taptic Engine™) to give you the MIDI clock beat within your Magic Trackpad.
 
@@ -147,9 +147,9 @@ Magiclock is an OS X app that uses haptic feedback (also called Taptic Engine™
 
 ## Git-Push
 
-<img src="https://camo.githubusercontent.com/c4eeb051705f27dd1d531ace4c540e8fc3954d36/687474703a2f2f692e696d6775722e636f6d2f446453686271322e6a7067" height="280"  align="left">
+<img src="https://camo.githubusercontent.com/c4eeb051705f27dd1d531ace4c540e8fc3954d36/687474703a2f2f692e696d6775722e636f6d2f446453686271322e6a7067" height="180"  align="left">
 
-<img src="https://user-images.githubusercontent.com/72940/28498777-0454202e-6fa6-11e7-8a3c-9c85506013fa.gif" height="280">
+<img src="https://user-images.githubusercontent.com/72940/28498777-0454202e-6fa6-11e7-8a3c-9c85506013fa.gif" height="180">
 
 * https://github.com/RocketScienceAbteilung/git-wig
 
@@ -159,7 +159,7 @@ sadjkf sdjlkfj salkdj flkajs dfjalksjd f
 
 ## DeepFandom  <Badge text="1st Prize" type="success"/>
 
-<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/uPb56-UfFRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="300rem" src="https://www.youtube-nocookie.com/embed/uPb56-UfFRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 DeepFandom is a deep learning model that learns the [Soundcloud](soundcloud.com) comments and predicts what _YOUR_ track could get as comments and where they are positioned on the waveform. [Website](https://devpost.com/software/deep-fandom)
 
