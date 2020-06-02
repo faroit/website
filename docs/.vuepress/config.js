@@ -1,5 +1,6 @@
 // .vuepress/config.js
 module.exports = {
+    title: 'faroit',
     base: "/website/",
     plugins: [
         ['@vuepress/nprogress'],
@@ -22,8 +23,7 @@ module.exports = {
         smoothScroll: true,
         displayAllHeaders: true,
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'CV', link: '/cv' },
+            { text: 'About Me', link: '/#about-me' },
             { text: 'Software', link: '/#software' },
             { text: 'Datasets', link: '/#datasets' },
             { text: 'Publications', link: '/#publications' }

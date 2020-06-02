@@ -112,7 +112,7 @@ export default {
     h1
       font-size 3rem
     h1, .description, .action
-      margin 1.8rem auto
+      margin 1.6rem auto
     .description
       max-width 35rem
       font-size 1.6rem
@@ -151,7 +151,7 @@ export default {
     flex-basis 30%
     max-width 30%
     h2
-      font-size 1.4rem
+      font-size 1.6rem
       font-weight 500
       border-bottom none
       padding-bottom 0
