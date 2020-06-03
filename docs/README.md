@@ -37,11 +37,11 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ## Current Research Interests
 
-- __Deep learning on data hubs__: I am interested multi-modal auto-encoders that can learn the relations between the different modalities, so as to reconstruct or enhance missing or degraded data. Also I work on multistore and heterogeneous heritage datasets.
+- __Deep learning on data hubs__: I am interested multi-modal auto-encoders that can learn the relations between the different modalities to reconstruct or enhance missing or degraded data. Also, I work on multistore and heterogeneous heritage datasets.
 
 - __User-centered AI for audio data__: I want to develop new methods and tools for users with domain knowledge to deliver interpretable audio models. Furthermore, _evaluation_ of audio processing tasks is often done in a computational manner, due to the lack of expertise from signal processing researchers in organizing perceptual evaluation campaigns.
 
-- __Ecological machine-learning__: I want to play a role in reducing the carbon footprint of my work. Reducing the size of datasets speeds up training and therefore saves energy. Reducing the computational complexity of models is an active research topic, with strongly investigated ideas like quantization, pruning or compression. Inspired by current trends in [differentiable signal processing](https://magenta.tensorflow.org/ddsp), I want to convert deep models so that they can be deployed on edge devices.
+- __Ecological machine-learning__: I want to play a role in reducing the carbon footprint of my work. Reducing the size of datasets speeds up training and therefore saves energy. Reducing the computational complexity of models is an active research topic, with strongly investigated ideas like quantization, pruning or compression. Inspired by current trends in differentiable signal processing, I want to convert deep models so that they can be deployed on edge devices.
 
 # Scientific Service
 
