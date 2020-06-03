@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+# THIS IS A MANUAL BUILD SCRIPT
+# PLEASE ONLY RUN IF TRAVIS DOESN'T WORK
 
 # abort on errors
 set -e
