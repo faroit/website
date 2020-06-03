@@ -24,6 +24,7 @@ module.exports = {
         displayAllHeaders: true,
         nav: [
             { text: 'About Me', link: '/#about-me' },
+            { text: 'Scientific Service', link: '/#scientific-service' },
             { text: 'Software', link: '/#software' },
             { text: 'Datasets', link: '/#datasets' },
             { text: 'Publications', link: '/#publications' }
