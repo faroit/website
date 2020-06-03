@@ -1,7 +1,7 @@
 // .vuepress/config.js
 module.exports = {
     title: 'faroit',
-    base: "/website/",
+    base: "/",
     plugins: [
         ['@vuepress/nprogress'],
         [
