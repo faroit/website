@@ -27,7 +27,7 @@ features:
     fa: fad fa-leaf
     color: '#88A61F'
     details: I am involved in <a href="https://plantnet.org">Pl@antNet</a> as part of <a href="https://www.cos4cloud-eosc.eu">Cos4Cloud 🇪🇺</a> citizen science project. I am also working on ML for ecoacoustics, analyzing sounds of 🦓 using <a href="https://audiolog.fr">mobile audio loggers</a>.
-footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i> Website Code</a>
+footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i> Code for this Website</a>
 ---
 
 # About me
@@ -161,7 +161,7 @@ __Collaborators__: [Patricio-Lopez Serrano](https://www.audiolabs-erlangen.de/fa
 
 DeepFandom is a deep learning model that learns the [Soundcloud](soundcloud.com) comments and predicts what _YOUR_ track could get as comments and where they are positioned on the waveform. 
 
-<a class="button" href="https://devpost.com/software/deep-fandom"><i class="fab fa-github"></i> Website</a>
+<a class="button" href="https://devpost.com/software/deep-fandom"><i class="fad fa-browser"></i> Website</a>
 
 ### Magiclock 
 
@@ -182,22 +182,35 @@ Magiclock is an macOS application that uses haptic feedback (also called Taptic 
 
 ## <img src='./images/sigsep.png' width="20rem">  MUSDB18
 
-150 tracks (~10h) Multitrack Music Dataset
+![](https://sigsep.github.io/assets/img/musheader.41c6bf29.png)
+
+The _musdb18_ is a dataset of 150 full lengths music tracks (~10h duration) of different genres along with their isolated drums, bass, vocals and others stems. It is currently the largest, publicly available dataset used for music separation. _MUSDB18_ serves as a benchmark for music separation tasks.
  
-* [MUSDB18](/datasets/musdb.md)
-* [MUSDB18-HQ](/datasets/musdb.md)
+ <a class="button" href="https://sigsep.github.io/datasets/musdb.html"><i class="fad fa-browser"></i> Website</a>
+<a class="button" href="https://paperswithcode.com/search?q_meta=&q=musdb18
+"><i class="fad fa-browser"></i> Paperswithcode</a>
 
 ## LibriCount
 
 ![](https://www.audiolabs-erlangen.de/content/resources/00-2017-CountNet/teaser.svg)
-* [Zenodo](Zenodo Link)
-* Experiment: [denumerate.app](https://denumerate.app)
+
+The dataset contains a simulated cocktail party environment of [0..10] speakers, mixed with 0dB SNR from random utterances of different speakers from the LibriSpeech `CleanTest` dataset.
+All recordings are of 5s durations, and all speakers are active for the most part of the recording. For each unique recording, we provide the audio wave file (16bits, 16kHz, mono) and an annotation `json` file with the same name as the recording.
+
+<a class="button" href="https://denumerate.app"><i class="fad fa-browser"></i> Listening Experiment</a>
+<a class="button" href="https://zenodo.org/record/1216072"><i class="fad fa-browser"></i> Download</a>
 
 ## Muserc
 
 <iframe width="100%" height="300rem" src="https://www.youtube-nocookie.com/embed/yOKvqz2jZgM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="" allowfullscreen></iframe>
 
-https://www.audiolabs-erlangen.com/resources/muserc
+A novel dataset for musical instruments where we recorded a __violin cello__ that includes sensor recordings capturing the ﬁnger position on the ﬁngerboard which is converted into an instantaneous frequency estimate. We also included professional high-speed video camera data to capture excitations from the string at 2000 fps. All of the data is sample synchronized
+
+<a class="button" href="https://www.audiolabs-erlangen.com/resources/muserc"><i class="fad fa-browser"></i> Website</a>
+<a class="button" href="https://zenodo.org/record/1560651"><i class="fad fa-browser"></i> Download</a>
+
+
+
 
 
 # Publications

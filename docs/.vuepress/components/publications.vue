@@ -1,7 +1,7 @@
 
 <template>
     <div>
-        <div v-for="item in pubs">
+        <div class="pub" v-for="item in pubs">
             <!-- {{ item.csljson.id }} -->
             <!-- TODO: generated infinite loop: <p v-html="renderBib(item.csljson.id)"></p> -->
             <h3 class="title">{{item.csljson.title}} <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/> 
@@ -147,7 +147,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus">
 .title {
     margin-bottom: 0px;
 }
@@ -156,4 +156,10 @@ export default {
     padding-left: 0em!important; 
     text-indent: 0em!important;
 }
+
+.pub a {
+  padding: 0.00em 0.2em;
+  margin: 0 0.0em 0.1em 0;
+}
+
 </style>
