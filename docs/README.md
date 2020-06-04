@@ -148,7 +148,7 @@ __Collaborators__: [Nils Werner](https://nils-werner.github.io/), [Patricio-Lope
 
 <img src="https://user-images.githubusercontent.com/72940/28498777-0454202e-6fa6-11e7-8a3c-9c85506013fa.gif" height="238rem">
 
-Why can't we have version on control for making music? In this hack, we merged `git` with a terminal based music sequencer, calling it `git wig`. We also created a suitable, diffable sequencer format to compose music. Finally, we realized `git push` by bringing this feature to 
+Why can't we have version on control for making music? In this hack, we merged `git` with a terminal based music sequencer, calling it `git wig`. We also created a suitable, diffable sequencer format to compose music. Finally, we realized `git push` by bringing this feature into a hardware controller.
 
 <a class="button" href="https://github.com/RocketScienceAbteilung/git-grid"><i class="fab fa-github"></i> git grid</a>
 <a class="button" href="https://github.com/RocketScienceAbteilung/git-wig"><i class="fab fa-github"></i> git wig</a>
@@ -209,10 +209,15 @@ A novel dataset for musical instruments where we recorded a __violin cello__ tha
 <a class="button" href="https://www.audiolabs-erlangen.com/resources/muserc"><i class="fad fa-browser"></i> Website</a>
 <a class="button" href="https://zenodo.org/record/1560651"><i class="fad fa-browser"></i> Download</a>
 
-
-
-
-
 # Publications
 
-<publications zotero_id="6408178"></publications>
+<a class="button" href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a> <a class="button" href="https://www.zotero.org/faroit"><i class="fad fa-browser"></i> Zotero</a>
+
+
+## Peer-Reviewed Journals
+
+<publications zotero_id="6408178" filter="itemType=journalArticle"></publications>
+
+## Peer-Reviewed Conferences
+
+<publications zotero_id="6408178" filter="itemType=conferencePaper"></publications>
