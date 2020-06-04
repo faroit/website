@@ -26,7 +26,7 @@ features:
   - title: Eco-ML
     fa: fad fa-leaf
     color: '#88A61F'
-    details: I am involved in <a href="https://plantnet.org">Pl@antNet</a> as part of <a href="https://www.cos4cloud-eosc.eu">Cos4Cloud 🇪🇺</a> citizen science project. I am also working on ML for ecoacoustics, analyzing sounds of 🦓 using <a href="https://audiolog.fr">mobile audio loggers</a>.
+    details: I am involved in <a href="https://plantnet.org">Pl@ntNet</a> as part of <a href="https://www.cos4cloud-eosc.eu">Cos4Cloud 🇪🇺</a> citizen science project. I am also working on ML for ecoacoustics, analyzing sounds of 🦓 using <a href="https://audiolog.fr">mobile audio loggers</a>.
 footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i> Code for this Website</a>
 ---
 
