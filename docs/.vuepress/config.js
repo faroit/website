@@ -29,5 +29,22 @@ module.exports = {
             { text: 'Datasets', link: '/#datasets' },
             { text: 'Publications', link: '/#publications' }
         ]
+    },
+    watch: {
+        // scroll position hack
+        // https://github.com/vuejs/vuepress/issues/1499
+        $page(newPage, oldPage) {
+            if (newPage.key !== oldPage.key) {
+                requestAnimationFrame(() => {
+                    if (this.$route.hash) {
+                        const element = document.getElementById(this.$route.hash.slice(1));
+
+                        if (element && element.scrollIntoView) {
+                            element.scrollIntoView();
+                        }
+                    }
+                });
+            }
+        }
     }
 }

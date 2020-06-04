@@ -15,15 +15,15 @@ social:
 tagline: Audio-AI Researcher at Inria, Montpellier
 
 features:
-  - title: Audio-AI
-    fa: fad fa-head-side-brain
-    color: '#36A8A7'
-    details: Today I work on deep learning models for audio related task. I am specifally interested in the task of <a href="https://github.com/faroit/CountNet">source count estimation</a> and <a href="https://sigsep.github.io">audio source separation</a>.
   - title: Music Processing
     fa: fas fa-music
     color: '#F27405'
     details: I have a background in digital signal processing (DSP) and all its related topics like electrical engineering, information theory and ﬁltering with a focus on music signals.
-- title: Eco-ML
+  - title: Audio-AI
+    fa: fad fa-head-side-brain
+    color: '#36A8A7'
+    details: Today I work on deep learning models for audio related task. I am specifally interested in the task of <a href="https://github.com/faroit/CountNet">source count estimation</a> and <a href="https://sigsep.github.io">audio source separation</a>.
+  - title: Eco-ML
     fa: fad fa-leaf
     color: '#88A61F'
     details: I am involved in <a href="https://plantnet.org">Pl@ntNet</a> as part of <a href="https://www.cos4cloud-eosc.eu">Cos4Cloud 🇪🇺</a> citizen science project. I am also working on ML for ecoacoustics, analyzing sounds of 🦓 using <a href="https://audiolog.fr">mobile audio loggers</a>.
