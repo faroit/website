@@ -17,7 +17,10 @@ module.exports = {
     head: [
         [
             'link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap' }
-        ]
+        ],
+        [
+            'script', { src: 'https://badge.dimensions.ai/badge.js', async: true }
+        ],
     ],
     themeConfig: {
         smoothScroll: true,

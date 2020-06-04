@@ -140,7 +140,7 @@ for track in mus:
 
 ## Hack
 
-### Git-Wig <Badge text="Winner" type="success"/>
+### `git wig` <Badge text="Winner" type="success"/>
 __Event__: 2015 Midi-Hackday Berlin,
 __Collaborators__: [Nils Werner](https://nils-werner.github.io/), [Patricio-Lopez Serrano](https://www.audiolabs-erlangen.de/fau/assistant/lopez)
 
@@ -211,7 +211,7 @@ A novel dataset for musical instruments where we recorded a __violin cello__ tha
 
 # Publications
 
-<a class="button" href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a> <a class="button" href="https://www.zotero.org/faroit"><i class="fad fa-browser"></i> Zotero</a>
+<a class="button" href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a> <a class="button" href="https://www.zotero.org/faroit"><i class="fas fa-graduation-cap"></i> Zotero</a>
 
 
 ## Peer-Reviewed Journals

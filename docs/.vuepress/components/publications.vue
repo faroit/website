@@ -2,7 +2,10 @@
 <template>
     <div>
         <div class="pub" v-for="item in pubs">
-            <h3 class="title">{{item.csljson.title}} <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/> 
+            <h3 class="title">{{item.csljson.title}} 
+                <Badge v-if="item.times_cited" :text="'Citations: ' + item.times_cited"/> 
+
+                <!-- <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/>  -->
             </h3>
             <span v-for="author in item.csljson.author">{{author.given}} {{author.family}}, </span>
             <i>{{ item.csljson['container-title'] }}</i>, {{ item.data.date }}
@@ -14,15 +17,14 @@
             </a> 
             <a v-if="getfields(item.data.extra).github" :href="getfields(item.data.extra).github">Code</a> 
             <a :href="exportbib(item.key, 'bibtex')">
-                <i class="fad fa-bookmark"></i> bibtex
+                <i class="fad fa-file-export"></i> bibtex
             </a>
             <a :href="exportbib(item.key, 'csljson')">
-                <i class="fad fa-bookmark"></i> json
+                <i class="fad fa-file-export"></i> json
             </a> 
             <a v-if="item.csljson.DOI" :href="'https://dx.doi.org/' + item.csljson.DOI">
-                <i class="fad fa-quote-right"></i> DOI
+                <i class="fad fa-bookmark"></i> DOI
             </a> 
-
         </div>
     </div>
 </template>
@@ -40,19 +42,45 @@ export default {
       }
   },
   props: [
-      'zotero_id'
+      'zotero_id',
+      'filter'
   ],
   beforeMount() {
-    var request_url = `${this.api_base}/${this.zotero_id}/publications/items?format=json&include=data,csljson&sort=date&limit=100&itemType=conferencePaper %7C%7C journalArticle`
+    var request_url = `${this.api_base}/${this.zotero_id}/publications/items?format=json&include=data,csljson&sort=date&limit=100&${this.filter}`
     axios.get(request_url)
     .then(response => {
        this.pubs = response.data
+        for (var i = 0; i < this.pubs.length; i++) {
+	        console.log(i); // index
+            console.log(this.pubs[i].csljson.DOI); // value
+            this.getDimension(this.pubs[i].csljson.DOI, i)
+        }
     })
     .catch(error => {
         console.log(error);
     })
   },
   methods: {
+    authorIsMe: function (author) {
+        if (author.given === "Fabian-Robert" && author.family === "Stöter") {
+            return true
+        }
+    },
+    getDimension: function (doi, i) {
+        var request_url = `http://metrics-api.dimensions.ai/doi/${doi}`
+        if (doi === undefined) {
+            return false;
+        } else {
+            axios.get(request_url)
+            .then(response => {
+                this.pubs[i].times_cited = response.data.times_cited.toString()
+                console.log(this.pubs[i].times_cited)
+            })
+            .catch(error => {
+                console.log(error);
+            })
+        }
+    },
     exportbib: function (key, format) {
       return `${this.api_base}/${this.zotero_id}/publications/items/${key}?format=${format}`
     },
