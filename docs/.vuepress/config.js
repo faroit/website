@@ -3,7 +3,9 @@ module.exports = {
     title: 'faroit',
     base: "/",
     plugins: [
-        ['@vuepress/nprogress'],
+        [
+            '@vuepress/nprogress'
+        ],
         [
             'vuepress-plugin-mathjax',
             {
@@ -13,6 +15,12 @@ module.exports = {
                 },
             },
         ],
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-120462573-2'
+            }
+        ]
     ],
     head: [
         [
