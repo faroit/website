@@ -80,26 +80,29 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 * __2019__: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-browser"></i> Website</a>
 * __2018__: Tutorial at [ISMIR 2019](http://ismir2018.ircam.fr/pages/events-tutorial-01.html): _"Music Separation with DNNs: Making It Work"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-browser"></i> Website</a>
 
-### Open-Ressources
+### Other Ressources
 
 * [sigsep.io](https://sigsep.github.io) - Open ressources for music separation.
 * [awesome-scientific-python-audio](https://github.com/faroit/awesome-python-scientific-audio) -  Curated list of python packages for scientific research in audio.
 
 # Software
 
-## <img src='./images/pytorchlogo.svg' width="20rem"> open-unmix
+## <img src='./images/pytorchlogo.svg' width="20rem"> open-unmix <a href="https://devpost.com/software/open-unmix"><Badge text="Winner: Pytorch Global Hackathon 2019" type="success"/></a>
 
 <iframe width="100%" height="300rem" src="https://www.youtube-nocookie.com/embed/IxLnoy-GzqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="" allowfullscreen></iframe>
 
 Open-Unmix, a deep neural network reference implementation ([PyTorch](https://github.com/sigsep/open-unmix-pytorch) and [NNabla](https://github.com/sigsep/open-unmix-nnabla)) for music source separation, applicable for researchers, audio engineers and artists. Open-Unmix provides ready-to-use models that allow users to separate pop music into four stems: vocals, drums, bass and the remaining other instruments. 
 
-Separations on MUSDB18 Datasets:
+Demo Separations on [MUSDB18](https://sigsep.github.io/musdb) Dataset:
 
 <iframe width="100%" height="490rem" src="https://d2cowzs755i94n.cloudfront.net" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="" allowfullscreen></iframe>
 
+<a class="button" href="https://sigsep.github.io/open-unmix/"><i class="fad fa-browser"></i> Website/Demo</a>
 <a class="button" href="https://github.com/sigsep/open-unmix-pytorch"><i class="fab fa-github"></i> Code</a>
-<a class="button" href="https://sigsep.github.io/open-unmix/"><i class="fad fa-browser"></i> Website</a>
 <a class="button" href="https://joss.theoj.org/papers/10.21105/joss.01667"><i class="fad fa-file-pdf"></i> Paper</a>
+<a class="button" href="https://anr.fr/fr/actualites-de-lanr/details/news/open-unmix-un-logiciel-open-source-issu-du-projet-anr-kamoulox-pour-demixer-la-musique/"><i class="fad fa-browser"></i> ANR Blog (french)</a>
+<a class="button" href="https://devpost.com/software/open-unmix"><i class="fad fa-rocket-launch"></i> Pytorch Hackathon</a>
+
 
 ## CountNet
 
