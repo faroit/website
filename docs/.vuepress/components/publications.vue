@@ -3,9 +3,7 @@
     <div>
 
         <div class="pub" v-for="item in pubs">
-            <h3 class="title">{{item.csljson.title}} 
-                <!-- <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/>  -->
-            </h3>
+            <h3 class="title">{{item.csljson.title}}</h3>
             <span v-for="author in item.csljson.author">{{author.given}} {{author.family}}, </span>
             <i>{{ item.csljson['container-title'] }}</i>, {{ item.data.date }}
             <a v-if="getfields(item.data.extra).pdf" :href="getfields(item.data.extra).pdf">
