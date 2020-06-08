@@ -1,10 +1,9 @@
 
 <template>
     <div>
+
         <div class="pub" v-for="item in pubs">
             <h3 class="title">{{item.csljson.title}} 
-                <Badge v-if="item.times_cited" :text="'Citations: ' + item.times_cited"/> 
-
                 <!-- <Badge :text="csltype(item.data.itemType)" :type="csltip(csltype(item.data.itemType))"/>  -->
             </h3>
             <span v-for="author in item.csljson.author">{{author.given}} {{author.family}}, </span>
@@ -25,6 +24,14 @@
             <a v-if="item.csljson.DOI" :href="'https://dx.doi.org/' + item.csljson.DOI">
                 <i class="fad fa-bookmark"></i> DOI
             </a> 
+            <a class="cite" v-if="item.times_cited" :href="'https://badge.dimensions.ai/details/doi/' + item.csljson.DOI">
+                <i class="fad fa-quote-right"></i> Citations: {{ item.times_cited }}
+                <!-- <Badge v-if="item.times_cited" :text="'Cited: ' + item.times_cited"/>  -->
+            </a>
+
+            <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+            <span data-badge-popover="right" data-badge-type="2" :data-doi="item.csljson.DOI" data-hide-no-mentions="true" class="altmetric-embed"></span>
+
         </div>
     </div>
 </template>
@@ -49,12 +56,12 @@ export default {
     var request_url = `${this.api_base}/${this.zotero_id}/publications/items?format=json&include=data,csljson&sort=date&limit=100&${this.filter}`
     axios.get(request_url)
     .then(response => {
-       this.pubs = response.data
-        for (var i = 0; i < this.pubs.length; i++) {
-	        console.log(i); // index
-            console.log(this.pubs[i].csljson.DOI); // value
-            this.getDimension(this.pubs[i].csljson.DOI, i)
-        }
+        this.pubs = response.data
+        this.pubs.map((pub, index) => {
+	        console.log(index); // index
+            console.log(pub.csljson.DOI); // value
+            this.getDimension(pub.csljson.DOI, index);
+        })
     })
     .catch(error => {
         console.log(error);
@@ -66,15 +73,21 @@ export default {
             return true
         }
     },
-    getDimension: function (doi, i) {
+    getDimension: function (doi, index) {
         var request_url = `http://metrics-api.dimensions.ai/doi/${doi}`
+        var pub = this.pubs[index]
         if (doi === undefined) {
             return false;
         } else {
             axios.get(request_url)
             .then(response => {
-                this.pubs[i].times_cited = response.data.times_cited.toString()
-                console.log(this.pubs[i].times_cited)
+                if (response.data.times_cited !== undefined) {
+                    if (response.data.times_cited > 0) {
+                        pub.times_cited = response.data.times_cited
+                        this.$set(this.pubs, index, pub)
+                        console.log(index)
+                    }
+                }
             })
             .catch(error => {
                 console.log(error);
@@ -133,6 +146,13 @@ export default {
     line-height: 2; 
     padding-left: 0em!important; 
     text-indent: 0em!important;
+}
+
+.pub .cite {
+    color: #DA5961;
+}
+.pub .cite:hover {
+    color: darken(#DA5961, 35%);
 }
 
 .pub a {
