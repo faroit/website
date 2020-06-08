@@ -25,10 +25,7 @@ module.exports = {
     head: [
         [
             'link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap' }
-        ],
-        [
-            'script', { type: 'text/ javascript', src: 'https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js' }
-        ],
+        ]
     ],
     themeConfig: {
         smoothScroll: true,

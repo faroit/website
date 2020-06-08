@@ -25,13 +25,11 @@
                 <i class="fad fa-bookmark"></i> DOI
             </a> 
             <a class="cite" v-if="item.times_cited" :href="'https://badge.dimensions.ai/details/doi/' + item.csljson.DOI">
-                <i class="fad fa-quote-right"></i> Citations: {{ item.times_cited }}
-                <!-- <Badge v-if="item.times_cited" :text="'Cited: ' + item.times_cited"/>  -->
+                <i class="fad fa-quote-right"></i> dimensions cites: {{ item.times_cited }}
             </a>
-
-            <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-            <span data-badge-popover="right" data-badge-type="2" :data-doi="item.csljson.DOI" data-hide-no-mentions="true" class="altmetric-embed"></span>
-
+            <a class="altmetric" v-if="item.altscore" :href="item.altmetricsurl">
+                <i class="fad fa-quote-right"></i> altmetrics: {{ item.altscore }}
+            </a>
         </div>
     </div>
 </template>
@@ -61,6 +59,7 @@ export default {
 	        console.log(index); // index
             console.log(pub.csljson.DOI); // value
             this.getDimension(pub.csljson.DOI, index);
+            this.getAltMetrics(pub.csljson.DOI, index);
         })
     })
     .catch(error => {
@@ -71,6 +70,27 @@ export default {
     authorIsMe: function (author) {
         if (author.given === "Fabian-Robert" && author.family === "Stöter") {
             return true
+        }
+    },
+    getAltMetrics: function (doi, index) {
+        var request_url = `https://api.altmetric.com/v1/doi/${doi}`
+        var pub = this.pubs[index]
+        if (doi === undefined) {
+            return false;
+        } else {
+            axios.get(request_url)
+            .then(response => {
+                if (response.data.score !== undefined) {
+                    if (response.data.score > 0) {
+                        pub.altscore = Math.ceil(response.data.score)
+                        pub.altmetricsurl = response.data.details_url
+                        this.$set(this.pubs, index, pub)
+}
+                }
+            })
+            .catch(error => {
+                console.log(error);
+            })
         }
     },
     getDimension: function (doi, index) {
@@ -148,11 +168,18 @@ export default {
     text-indent: 0em!important;
 }
 
+.pub .altmetric {
+    color: #2F90B9;
+}
+.pub .altmetric:hover {
+    color: darken(#2F90B9, 35%);
+}
+
 .pub .cite {
-    color: #DA5961;
+    color: #f08800;
 }
 .pub .cite:hover {
-    color: darken(#DA5961, 35%);
+    color: darken(#f08800, 35%);
 }
 
 .pub a {
