@@ -76,6 +76,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ### Talks
 
+* __2020__: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides]<Badge text="t.b.a." type="info"/> [Video]<Badge text="t.b.a." type="info"/>
 * __2019__: Invited talk at a conference [“Deep learning: From theory to applications”](https://www.lebesgue.fr/content/sem2018-deeplearning) titled “Deep learning for music unmixing”. [Video](https://www.lebesgue.fr/video/2879) [Slides]()
 * __2019__: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-browser"></i> Website</a>
 * __2018__: Tutorial at [ISMIR 2019](http://ismir2018.ircam.fr/pages/events-tutorial-01.html): _"Music Separation with DNNs: Making It Work"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-browser"></i> Website</a>
