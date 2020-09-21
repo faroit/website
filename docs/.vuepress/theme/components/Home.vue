@@ -74,7 +74,7 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
-import '@fortawesome/fontawesome-pro/css/all.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 export default {
   name: 'Home',

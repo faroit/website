@@ -34,7 +34,7 @@
 <script>
 const axios = require('axios')
 
-import '@fortawesome/fontawesome-pro/css/all.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 
 export default {
