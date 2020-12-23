@@ -47,8 +47,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ## Student Supervision
 
-- Lucas Mathieu, Research Internship (Master), (AgroParisTech, France) <Badge text="Ongoing" type="success"/>
-<!-- add UM project here -->
+- Lucas Mathieu, Research Internship (Master), (AgroParisTech, France)
 - [Wolfgang Mack](https://www.audiolabs-erlangen.de/fau/assistant/mack), Master Thesis (FAU Erlangen-Nürnberg, Germany)
 - Erik Johnson, [DAAD](https://www.daad.de/rise/en/)rsearch internship (Carleton University, Canada)
 - [Nils Werner](https://nils-werner.github.io/), Master Thesis, (FAU Erlangen-Nürnberg, Germany)
@@ -76,10 +75,10 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ### Talks
 
-* __2020__: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides]<Badge text="t.b.a." type="info"/> [Video]<Badge text="t.b.a." type="info"/>
+* __2020__: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides (PDF)](https://sigsep.github.io/AES2020_CurrentTrendsInSourceSeparation.pdf) [Video](https://www.youtube.com/watch?v=AB-F2JmI9U4)
 * __2019__: Invited talk at a conference [“Deep learning: From theory to applications”](https://www.lebesgue.fr/content/sem2018-deeplearning) titled “Deep learning for music unmixing”. [Video](https://www.lebesgue.fr/video/2879) [Slides]()
-* __2019__: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-browser"></i> Website</a>
-* __2018__: Tutorial at [ISMIR 2019](http://ismir2018.ircam.fr/pages/events-tutorial-01.html): _"Music Separation with DNNs: Making It Work"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-browser"></i> Website</a>
+* __2019__: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fas fa-link"></i> Website</a>
+* __2018__: Tutorial at [ISMIR 2019](http://ismir2018.ircam.fr/pages/events-tutorial-01.html): _"Music Separation with DNNs: Making It Work"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fas fa-link"></i> Website</a>
 
 ### Other Ressources
 
@@ -98,10 +97,10 @@ Demo Separations on [MUSDB18](https://sigsep.github.io/musdb) Dataset:
 
 <iframe width="100%" height="490rem" src="https://d2cowzs755i94n.cloudfront.net" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="" allowfullscreen></iframe>
 
-<a class="button" href="https://sigsep.github.io/open-unmix/"><i class="fad fa-browser"></i> Website/Demo</a>
+<a class="button" href="https://sigsep.github.io/open-unmix/"><i class="fas fa-link"></i> Website/Demo</a>
 <a class="button" href="https://github.com/sigsep/open-unmix-pytorch"><i class="fab fa-github"></i> Code</a>
 <a class="button" href="https://joss.theoj.org/papers/10.21105/joss.01667"><i class="fad fa-file-pdf"></i> Paper</a>
-<a class="button" href="https://anr.fr/fr/actualites-de-lanr/details/news/open-unmix-un-logiciel-open-source-issu-du-projet-anr-kamoulox-pour-demixer-la-musique/"><i class="fad fa-browser"></i> ANR Blog (french)</a>
+<a class="button" href="https://anr.fr/fr/actualites-de-lanr/details/news/open-unmix-un-logiciel-open-source-issu-du-projet-anr-kamoulox-pour-demixer-la-musique/"><i class="fas fa-link"></i> ANR Blog (french)</a>
 <a class="button" href="https://devpost.com/software/open-unmix"><i class="fad fa-rocket-launch"></i> Pytorch Hackathon</a>
 
 
@@ -144,6 +143,16 @@ for track in mus:
 
 ## Hackathon Projects
 
+### DeMask  <Badge text="1st Place" type="success"/>
+__Event__: 2020 PyTorch Summer Hackathon – 
+__Collaborators__: Manuel Pariente, Samuele Cornell, Michel Olvera, Jonas Haag
+
+<iframe width="100%" height="300rem" src="https://www.youtube-nocookie.com/embed/QLf10Uqu8Yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+DeMask is an end-to-end model for enhancing speech while wearing face masks — offering a clear benefit during times when face masks are mandatory in many spaces and for workers who wear face masks on the job. Built with Asteroid, a PyTorch-based audio source separation toolkit, DeMask is trained to recognize distortions in speech created by the muffling from face masks and to adjust the speech to make it sound clearer.
+
+<a class="button" href="https://devpost.com/software/asteroid-the-pytorch-based-source-separation-toolkit"><i class="fas fa-link"></i> DevPost Website</a>
+
 ### `git wig` <Badge text="Winner" type="success"/>
 __Event__: 2015 Midi-Hackday Berlin,
 __Collaborators__: [Nils Werner](https://nils-werner.github.io/), [Patricio-Lopez Serrano](https://www.audiolabs-erlangen.de/fau/assistant/lopez)
@@ -165,7 +174,7 @@ __Collaborators__: [Patricio-Lopez Serrano](https://www.audiolabs-erlangen.de/fa
 
 DeepFandom is a deep learning model that learns the [Soundcloud](soundcloud.com) comments and predicts what _YOUR_ track could get as comments and where they are positioned on the waveform. 
 
-<a class="button" href="https://devpost.com/software/deep-fandom"><i class="fad fa-browser"></i> Website</a>
+<a class="button" href="https://devpost.com/software/deep-fandom"><i class="fas fa-link"></i> Website</a>
 
 ### Magiclock 
 
@@ -190,9 +199,9 @@ Magiclock is an macOS application that uses haptic feedback (also called Taptic 
 
 The _musdb18_ is a dataset of 150 full lengths music tracks (~10h duration) of different genres along with their isolated drums, bass, vocals and others stems. It is currently the largest, publicly available dataset used for music separation. _MUSDB18_ serves as a benchmark for music separation tasks.
  
- <a class="button" href="https://sigsep.github.io/datasets/musdb.html"><i class="fad fa-browser"></i> Website</a>
+ <a class="button" href="https://sigsep.github.io/datasets/musdb.html"><i class="fas fa-link"></i> Website</a>
 <a class="button" href="https://paperswithcode.com/search?q_meta=&q=musdb18
-"><i class="fad fa-browser"></i> Paperswithcode</a>
+"><i class="fas fa-link"></i> Paperswithcode</a>
 
 ## LibriCount
 
@@ -201,8 +210,8 @@ The _musdb18_ is a dataset of 150 full lengths music tracks (~10h duration) of d
 The dataset contains a simulated cocktail party environment of [0..10] speakers, mixed with 0dB SNR from random utterances of different speakers from the LibriSpeech `CleanTest` dataset.
 All recordings are of 5s durations, and all speakers are active for the most part of the recording. For each unique recording, we provide the audio wave file (16bits, 16kHz, mono) and an annotation `json` file with the same name as the recording.
 
-<a class="button" href="https://denumerate.app"><i class="fad fa-browser"></i> Listening Experiment</a>
-<a class="button" href="https://zenodo.org/record/1216072"><i class="fad fa-browser"></i> Download</a>
+<a class="button" href="https://denumerate.app"><i class="fas fa-link"></i> Listening Experiment</a>
+<a class="button" href="https://zenodo.org/record/1216072"><i class="fas fa-link"></i> Download</a>
 
 ## Muserc
 
@@ -210,8 +219,8 @@ All recordings are of 5s durations, and all speakers are active for the most par
 
 A novel dataset for musical instruments where we recorded a __violin cello__ that includes sensor recordings capturing the ﬁnger position on the ﬁngerboard which is converted into an instantaneous frequency estimate. We also included professional high-speed video camera data to capture excitations from the string at 2000 fps. All of the data is sample synchronized
 
-<a class="button" href="https://www.audiolabs-erlangen.com/resources/muserc"><i class="fad fa-browser"></i> Website</a>
-<a class="button" href="https://zenodo.org/record/1560651"><i class="fad fa-browser"></i> Download</a>
+<a class="button" href="https://www.audiolabs-erlangen.com/resources/muserc"><i class="fas fa-link"></i> Website</a>
+<a class="button" href="https://zenodo.org/record/1560651"><i class="fas fa-link"></i> Download</a>
 
 # Publications
 

@@ -10,23 +10,23 @@
                 <i class="fas fa-file-pdf"></i>
             </a> 
             <a v-if="item.csljson.URL" :href="item.csljson.URL">
-                <i class="fad fa-browser"></i> website
+                <i class="fas fa-link"></i> website
             </a> 
             <a v-if="getfields(item.data.extra).github" :href="getfields(item.data.extra).github">Code</a> 
             <a :href="exportbib(item.key, 'bibtex')">
-                <i class="fad fa-file-export"></i> bibtex
+                <i class="fas fa-file-export"></i> bibtex
             </a>
             <a :href="exportbib(item.key, 'csljson')">
-                <i class="fad fa-file-export"></i> json
+                <i class="fas fa-file-export"></i> json
             </a> 
             <a v-if="item.csljson.DOI" :href="'https://dx.doi.org/' + item.csljson.DOI">
-                <i class="fad fa-bookmark"></i> DOI
+                <i class="fas fa-bookmark"></i> DOI
             </a> 
             <a class="cite" v-if="item.times_cited" :href="'https://badge.dimensions.ai/details/doi/' + item.csljson.DOI">
-                <i class="fad fa-quote-right"></i> dimensions cites: {{ item.times_cited }}
+                <i class="fas fa-quote-right"></i> dimensions cites: {{ item.times_cited }}
             </a>
             <a class="altmetric" v-if="item.altscore" :href="item.altmetricsurl">
-                <i class="fad fa-quote-right"></i> altmetrics: {{ item.altscore }}
+                <i class="fas fa-quote-right"></i> altmetrics: {{ item.altscore }}
             </a>
         </div>
     </div>
