@@ -12,7 +12,7 @@ social:
   <a href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en" alt="Google Scholar"><i class="fas fa-graduation-cap fa-2x"></i></a>
   <a href="mailto:fabian-robert.stoter@inria.fr" alt="Email"><i class="fas fa-envelope fa-2x"></i></a>
   <a href="https://orcid.org/0000-0002-2534-1165" alt="Orcid"><i class="fab fa-orcid fa-2x"></i></a>
-tagline: Audio-AI Researcher at Inria, Montpellier
+tagline: Audio-AI Researcher at Audioshake.ai, Montpellier
 
 features:
   - title: Music Processing
@@ -32,7 +32,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 # About me
 
-<img src="frs.jpg" width="86" style="float:left; margin-right: 1em;"> Since 2018, I am a postdoctoral researcher at the [Scientic Data Management team (Zenith)](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage) at Inria in Montpellier, France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) (is a joint institution of [Fraunhofer IIS](https://www.iis.fraunhofer.de) and [FAU Erlangen-Nürnberg](https://fau.de)) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled __«Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency»__ can be viewed [<i class="fas fa-file-pdf"></i> here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [<i class="fas fa-file-pdf"></i> here](./stoeter_cv.pdf).
+<img src="frs.jpg" width="86" style="float:left; margin-right: 1em;"> Since 2021, I'm head of research at [audioshake.ai](https://www.audioshake.ai) working on audio source separation. Before, I was a postdoctoral researcher at the [Scientic Data Management team (Zenith)](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage) at Inria in Montpellier, France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) (is a joint institution of [Fraunhofer IIS](https://www.iis.fraunhofer.de) and [FAU Erlangen-Nürnberg](https://fau.de)) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled __«Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency»__ can be viewed [<i class="fas fa-file-pdf"></i> here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [<i class="fas fa-file-pdf"></i> here](./stoeter_cv.pdf).
 <!-- Outside of my time [analog photography], [analog synthesizers].  -->
 
 ## Current Research Interests
