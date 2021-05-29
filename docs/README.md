@@ -67,7 +67,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ### Graduate Programs
 
-* __2021__: [https://audiolabs-erlangen.de/fau/professor/mueller/teaching/2021s_dla](Lecture: Selected Topics in Deep Learning for Audio, Speech, and Music Processing) Music Source Separation, University of Erlangen (Germany).
+* __2021__: [Lecture: Selected Topics in Deep Learning for Audio, Speech, and Music Processing](https://audiolabs-erlangen.de/fau/professor/mueller/teaching/2021s_dla), Music Source Separation, University of Erlangen (Germany).
 * __2020__: [Research Internship](https://www.polytech.umontpellier.fr/partenariats/stages-et-projets) (Master, Stage 5), PolyTech Montpellier
 * __2018, 2019__: Introduction to Deep Learning, Master 2, PolyTech Montpellier
 * __2016__: [Reproducible Audio Research Seminar](https://github.com/audiolabs/APSRR-2016), University of Erlangen (Germany)
