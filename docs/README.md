@@ -201,7 +201,7 @@ Magiclock is an macOS application that uses haptic feedback (also called Taptic 
 The _musdb18_ is a dataset of 150 full lengths music tracks (~10h duration) of different genres along with their isolated drums, bass, vocals and others stems. It is currently the largest, publicly available dataset used for music separation. _MUSDB18_ serves as a benchmark for music separation tasks.
  
  <a class="button" href="https://sigsep.github.io/datasets/musdb.html"><i class="fas fa-link"></i> Website</a>
-<a class="button" href="https://paperswithcode.com/search?q_meta=&q=musdb18
+<a class="button" href="https://paperswithcode.com/dataset/musdb18
 "><i class="fas fa-link"></i> Paperswithcode</a>
 
 ## LibriCount
