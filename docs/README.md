@@ -63,6 +63,10 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 * __Journals:__ IEEE [Transaction in Audio, Speech and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655), [Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [EURASIP](https://www.eurasip.org/), [Journal of Open Source Software](https://github.com/search?q=repo%3Aopenjournals%2Fjoss-reviews+label%3Areview+assignee%3Afaroit&type=Issues&ref=advsearch&l=&l=)
 * __Conferences:__ [ICASSP](http://ieeeicassp.org/), [EUSIPCO](https://eusipco2020.org/), [DAFx](https://www.dafx.de/), [ISMIR](https://www.ismir.net).
 
+## Editing
+
+* __Journals__: Topic Editor for ML-Audio for the [Journal of Open Source Software](https://joss.theoj.org/about#topic_editors).
+
 ## Teaching
 
 ### Graduate Programs
