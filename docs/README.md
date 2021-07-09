@@ -104,7 +104,7 @@ Demo Separations on [MUSDB18](https://sigsep.github.io/musdb) Dataset:
 
 <a class="button" href="https://sigsep.github.io/open-unmix/"><i class="fas fa-link"></i> Website/Demo</a>
 <a class="button" href="https://github.com/sigsep/open-unmix-pytorch"><i class="fab fa-github"></i> Code</a>
-<a class="button" href="https://joss.theoj.org/papers/10.21105/joss.01667"><i class="fad fa-file-pdf"></i> Paper</a>
+<a class="button" href="https://joss.theoj.org/papers/10.21105/joss.01667"><i class="fa fa-file-pdf"></i> Paper</a>
 <a class="button" href="https://anr.fr/fr/actualites-de-lanr/details/news/open-unmix-un-logiciel-open-source-issu-du-projet-anr-kamoulox-pour-demixer-la-musique/"><i class="fas fa-link"></i> ANR Blog (french)</a>
 <a class="button" href="https://devpost.com/software/open-unmix"><i class="fad fa-rocket-launch"></i> Pytorch Hackathon</a>
 
