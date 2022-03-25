@@ -18,11 +18,11 @@ features:
   - title: Music Processing
     fa: fas fa-music
     color: "#F27405"
-    details: I have a background in digital signal processing (DSP) and all its related topics like electrical engineering, information theory and ﬁltering with a focus on music signals.
+    details: I have a background in digital signal processing (DSP) and have worked on a wide range of audio and related tasks, including speech- and audio processing, music analysis and music information retrieval.
   - title: Audio-AI
     fa: fas fa-brain
     color: "#36A8A7"
-    details: Today I work on deep learning models for audio related task. I am specifally interested in the task of <a href="https://github.com/faroit/CountNet">source count estimation</a> and <a href="https://sigsep.github.io">audio source separation</a>.
+    details: I have a profound understanding of deep audio ml. I am specifically interested in the tasks of <a href="https://github.com/faroit/CountNet"> source count estimation</a> and <a href="https://sigsep.github.io">audio source separation</a>. I am leading the research team at <a href="https://audioshake.ai">Audioshake.ai</a> that created the best performing music separation model.
   - title: Eco-ML
     fa: fab fa-pagelines
     color: "#88A61F"
@@ -34,8 +34,6 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 <img src="frs.jpg" width="86" style="float:left; margin-right: 1em;"> Since 2021, I'm head of research at [audioshake.ai](https://www.audioshake.ai) working on audio source separation. Before, I was a postdoctoral researcher at the [Scientic Data Management team (Zenith)](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage) at Inria in Montpellier, France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) (is a joint institution of [Fraunhofer IIS](https://www.iis.fraunhofer.de) and [FAU Erlangen-Nürnberg](https://fau.de)) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled **«Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency»** can be viewed [<i class="fas fa-file-pdf"></i> here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [<i class="fas fa-file-pdf"></i> here](https://github.com/faroit/resume/releases/download/v1.0.0/stoeter_resume.pdf).
 
-<!-- Outside of my time [analog photography], [analog synthesizers].  -->
-
 ## Current Research Interests
 
 - **Deep learning on data hubs**: I am interested multi-modal auto-encoders that can learn the relations between the different modalities to reconstruct or enhance missing or degraded data. Also, I work on multistore and heterogeneous heritage datasets.
@@ -43,6 +41,11 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 - **User-centered AI for audio data**: I want to develop new methods and tools for users with domain knowledge to deliver interpretable audio models. Furthermore, _evaluation_ of audio processing tasks is often done in a computational manner, due to the lack of expertise from signal processing researchers in organizing perceptual evaluation campaigns.
 
 - **Ecological machine-learning**: I want to play a role in reducing the carbon footprint of my work. Reducing the size of datasets speeds up training and therefore saves energy. Reducing the computational complexity of models is an active research topic, with strongly investigated ideas like quantization, pruning or compression. Inspired by current trends in differentiable signal processing, I want to convert deep models so that they can be deployed on edge devices.
+
+## Press/Media Interviews
+
+- <i class="fas fa-podcast"></i> **02/2022** ["L'intelligence artificielle au profit des stems musicaux", Radio-Canada (French)](https://ici.radio-canada.ca/ohdio/premiere/emissions/jusquau-bout/episodes/605268/rattrapage-du-vendredi-11-fevrier-2022/1)
+- <i class="fas fa-podcast"></i> **12/2021** ["Recycling von Songs: Wie KI neue Musik generiert", Deutschlandfunk Kultur (German)](https://www.deutschlandfunkkultur.de/recycling-von-songs-wie-ki-neue-musik-generiert-dlf-kultur-90e01124-100.html)
 
 # Scientific Service
 
