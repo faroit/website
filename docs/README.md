@@ -32,7 +32,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 # About me
 
-<img src="frs.jpg" width="86" style="float:left; margin-right: 1em;"> Since 2021, I'm head of research at [audioshake.ai](https://www.audioshake.ai) working on audio source separation. Before, I was a postdoctoral researcher at the [Scientic Data Management team (Zenith)](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage) at Inria in Montpellier, France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) (is a joint institution of [Fraunhofer IIS](https://www.iis.fraunhofer.de) and [FAU Erlangen-Nürnberg](https://fau.de)) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled **«Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency»** can be viewed [<i class="fas fa-file-pdf"></i> here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [<i class="fas fa-file-pdf"></i> here](https://github.com/faroit/resume/releases/download/v1.0.0/stoeter_resume.pdf).
+<img src="frs.jpg" width="86" style="float:left; margin-right: 1em;"> Since 2021, I'm head of research at [audioshake.ai](https://www.audioshake.ai) working on audio source separation. Before, I was a postdoctoral researcher at the [Scientic Data Management team (Zenith)](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage) at Inria in Montpellier, France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) (is a joint institution of [Fraunhofer IIS](https://www.iis.fraunhofer.de) and [FAU Erlangen-Nürnberg](https://fau.de)) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled **«Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency»** can be viewed [<i class="fas fa-file-pdf"></i> here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [<i class="fas fa-file-pdf"></i> here](https://github.com/faroit/resume/releases/download/v1.0.1/stoeter_resume.pdf).
 
 ## Current Research Interests
 
@@ -51,16 +51,17 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ## Student Supervision
 
-- Lucas Mathieu, Research Internship (Master), (AgroParisTech, France)
-- [Wolfgang Mack](https://www.audiolabs-erlangen.de/fau/assistant/mack), Master Thesis (FAU Erlangen-Nürnberg, Germany)
-- Erik Johnson, [DAAD](https://www.daad.de/rise/en/)rsearch internship (Carleton University, Canada)
-- [Nils Werner](https://nils-werner.github.io/), Master Thesis, (FAU Erlangen-Nürnberg, Germany)
+- Michael Tänzer, PhD student, Fraunhofer IDMT (Germany), (Summer 2021), Internship on audio tagging at Audioshake.
+- [Lucas Mathieu](https://synergy.st-andrews.ac.uk/cbd/person/lm354/), Master student, AgroParistech (France), Master thesis _"Listening to the Wild"_ (03/2020). Theoretical research on self-supervised learning using data from animal-born loggers ([MUSE project](https://muse.edu.umontpellier.fr/)). Lucas was accepted as a PhD student after master thesis.
+- Clara Jacintho and Delton Vaz, Bachelor Thesis, PolyTech Montpellier (France), _"Machine Learning for Audio on the Web"_ (12/2019). Research on web based separation architectures. Resulted in a paper submitted to the [Web Audio Conference 2021](https://webaudioconf2021.com).
+- [Wolfgang Mack](https://www.audiolabs-erlangen.de/fau/assistant/mack), Master Thesis (FAU Erlangen-Nürnberg, Germany), _"Investigations on Speaker Separation using Embeddings obtained by Deep Learning"_, (05/2017), Wolfgang was accepted as PhD student after master thesis.
+- [Erik Johnson](https://ca.linkedin.com/in/ecmjohnson), [DAAD](https://www.daad.de/rise/en/) Research internship, (Carleton University, Canada), [_"Open-Source Implementation of Multichannel BSSEval in Python"_](https://github.com/craffel/mir_eval/pull/199) (03/2014).
+- [Nils Werner](https://nils-werner.github.io/), Master Thesis, (FAU Erlangen-Nürnberg, Germany), _"Parameter Estimation for Time-Varying Harmonic Audio Signals"_, (02/2014), Nils was accepted as PhD student after master thesis.
 - Jeremy Hunt, [DAAD](https://www.daad.de/rise/en/) research internship, (Rice University, USA)
-- Ercan Berkan, Master Thesis, (Bilkent University, Turkey)
-- Shujie Guo, Research Internship, (FAU Erlangen-Nürnberg, Germany)
-- [Aravindh Krishnamoorty](https://www.idc.tf.fau.de/person/aravindh-krishnamoorthy), Internship
-- Bufei Liu, Research Internship (Shanghai University, China)
-  <!-- - Qiao Wang -->
+- Bufei Liu, Master, Research Internship (Shanghai University, China), 2014.
+- [Aravindh Krishnamoorty](https://www.idc.tf.fau.de/person/aravindh-krishnamoorthy), Master, Internship, 2014
+- Ercan Berkan, Master Thesis, (Bilkent University, Turkey), _"Music Instrument Source Separation"_, 3/2013
+- Shujie Guo, Master, Research Internship, (FAU Erlangen-Nürnberg, Germany)
 
 ## Reviewing
 
