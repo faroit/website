@@ -51,7 +51,8 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ## Student Supervision
 
-- Michael Tänzer, PhD student, Fraunhofer IDMT (Germany), (Summer 2021), Internship on audio tagging at Audioshake.
+- Yeong-Seok Jeong and [Jinsung Kim](https://onedas.github.io/), Master students, Korea University, Internship on _"Unsupervised Music Separation"_ (Summer 2022).
+- Michael Tänzer, PhD student, Fraunhofer IDMT (Germany), (Summer 2021), Internship on audio tagging.
 - [Lucas Mathieu](https://synergy.st-andrews.ac.uk/cbd/person/lm354/), Master student, AgroParistech (France), Master thesis _"Listening to the Wild"_ (03/2020). Theoretical research on self-supervised learning using data from animal-born loggers ([MUSE project](https://muse.edu.umontpellier.fr/)). Lucas was accepted as a PhD student after master thesis.
 - Clara Jacintho and Delton Vaz, Bachelor Thesis, PolyTech Montpellier (France), _"Machine Learning for Audio on the Web"_ (12/2019). Research on web based separation architectures. Resulted in a paper submitted to the [Web Audio Conference 2021](https://webaudioconf2021.com).
 - [Wolfgang Mack](https://www.audiolabs-erlangen.de/fau/assistant/mack), Master Thesis (FAU Erlangen-Nürnberg, Germany), _"Investigations on Speaker Separation using Embeddings obtained by Deep Learning"_, (05/2017), Wolfgang was accepted as PhD student after master thesis.
