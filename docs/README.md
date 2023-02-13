@@ -7,7 +7,7 @@ sidebarDepth: 2
 heroImage: ./hero2.jpg
 heroText: Fabian-Robert Stöter
 social:
-  <a href="https://twitter.com/faroit" alt="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+  <a rel="me" href="https://sigmoid.social/@faro" alt="Mastodon"><i class="fab fa-mastodon fa-2x"></i></a>
   <a href="https://github.com/faroit" alt="Github"><i class="fab fa-github fa-2x"></i></a>
   <a href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en" alt="Google Scholar"><i class="fas fa-graduation-cap fa-2x"></i></a>
   <a href="mailto:fabian-robert.stoter@inria.fr" alt="Email"><i class="fas fa-envelope fa-2x"></i></a>
@@ -44,6 +44,8 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ## Press/Media Interviews
 
+- <i class="fas fa-podcast"></i> **02/2023** ["l'intelligence artificielle et du droit d'auteur", Radio-Canada (French)](https://ici.radio-canada.ca/ohdio/premiere/emissions/jusquau-bout/episodes/683554/rattrapage-du-vendredi-27-janvier-2023)
+- <i class="fas fa-podcast"></i> **12/2022** ["Jahresrückblick und Vorausschau: KI Musik und Metaverse", Deutschlandfunk Kultur (German)](https://www.deutschlandfunkkultur.de/jahresrueckblick-und-vorausschau-ki-musik-und-metaverse-dlf-kultur-e70bf447-100.html)
 - <i class="fas fa-podcast"></i> **02/2022** ["L'intelligence artificielle au profit des stems musicaux", Radio-Canada (French)](https://ici.radio-canada.ca/ohdio/premiere/emissions/jusquau-bout/episodes/605268/rattrapage-du-vendredi-11-fevrier-2022/1)
 - <i class="fas fa-podcast"></i> **12/2021** ["Recycling von Songs: Wie KI neue Musik generiert", Deutschlandfunk Kultur (German)](https://www.deutschlandfunkkultur.de/recycling-von-songs-wie-ki-neue-musik-generiert-dlf-kultur-90e01124-100.html)
 
@@ -51,7 +53,8 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ## Student Supervision
 
-- Yeong-Seok Jeong and [Jinsung Kim](https://onedas.github.io/), Master students, Korea University, Internship on _"Unsupervised Music Separation"_ (Summer 2022).
+- Johannes Imort, Master student, RWTH Aachen (Germany), Internship _"Sound Activity Detection"_ (ongoing).
+- Yeong-Seok Jeong and [Jinsung Kim](https://onedas.github.io/), Master students, Korea University, (Winter 2022/2023) Internship on _"Unsupervised Music Separation"_ (Summer 2022).
 - Michael Tänzer, PhD student, Fraunhofer IDMT (Germany), (Summer 2021), Internship on audio tagging.
 - [Lucas Mathieu](https://synergy.st-andrews.ac.uk/cbd/person/lm354/), Master student, AgroParistech (France), Master thesis _"Listening to the Wild"_ (03/2020). Theoretical research on self-supervised learning using data from animal-born loggers ([MUSE project](https://muse.edu.umontpellier.fr/)). Lucas was accepted as a PhD student after master thesis.
 - Clara Jacintho and Delton Vaz, Bachelor Thesis, PolyTech Montpellier (France), _"Machine Learning for Audio on the Web"_ (12/2019). Research on web based separation architectures. Resulted in a paper submitted to the [Web Audio Conference 2021](https://webaudioconf2021.com).
@@ -86,6 +89,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ### Talks
 
+- **2023**: "Music Source Separation: Is it solved yet?", ParisTech, Paris (France)
 - **2020**: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides (PDF)](https://sigsep.github.io/AES2020_CurrentTrendsInSourceSeparation.pdf) [Video](https://www.youtube.com/watch?v=AB-F2JmI9U4)
 - **2019**: Invited talk at a conference [“Deep learning: From theory to applications”](https://www.lebesgue.fr/content/sem2018-deeplearning) titled “Deep learning for music unmixing”. [Video](https://www.lebesgue.fr/video/2879) [Slides]()
 - **2019**: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fas fa-link"></i> Website</a>
@@ -214,7 +218,7 @@ Magiclock is an macOS application that uses haptic feedback (also called Taptic 
 The _musdb18_ is a dataset of 150 full lengths music tracks (~10h duration) of different genres along with their isolated drums, bass, vocals and others stems. It is currently the largest, publicly available dataset used for music separation. _MUSDB18_ serves as a benchmark for music separation tasks.
 
 <a class="button" href="https://sigsep.github.io/datasets/musdb.html"><i class="fas fa-link"></i> Website</a>
-<a class="button" href="https://paperswithcode.com/dataset/musdb18
+<a class="button" href="<https://paperswithcode.com/dataset/musdb18>
 "><i class="fas fa-link"></i> Paperswithcode</a>
 
 ## LibriCount
