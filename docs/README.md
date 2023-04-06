@@ -90,7 +90,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 ### Talks
 
 - **2023**: "Music Source Separation: Is it solved yet?", ParisTech, Paris (France) [Slides](https://faroit.com/slides-paristech23)
-.- **2020**: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides (PDF)](https://sigsep.github.io/AES2020_CurrentTrendsInSourceSeparation.pdf) [Video](https://www.youtube.com/watch?v=AB-F2JmI9U4)
+- **2020**: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides (PDF)](https://sigsep.github.io/AES2020_CurrentTrendsInSourceSeparation.pdf) [Video](https://www.youtube.com/watch?v=AB-F2JmI9U4)
 - **2019**: Invited talk at a conference [“Deep learning: From theory to applications”](https://www.lebesgue.fr/content/sem2018-deeplearning) titled “Deep learning for music unmixing”. [Video](https://www.lebesgue.fr/video/2879) [Slides]()
 - **2019**: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fas fa-link"></i> Website</a>
 - **2018**: Tutorial at [ISMIR 2019](http://ismir2018.ircam.fr/pages/events-tutorial-01.html): _"Music Separation with DNNs: Making It Work"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fas fa-link"></i> Website</a>
