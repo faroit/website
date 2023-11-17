@@ -12,7 +12,7 @@ social:
   <a href="https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en" alt="Google Scholar"><i class="fas fa-graduation-cap fa-2x"></i></a>
   <a href="mailto:fabian-robert.stoter@inria.fr" alt="Email"><i class="fas fa-envelope fa-2x"></i></a>
   <a href="https://orcid.org/0000-0002-2534-1165" alt="Orcid"><i class="fab fa-orcid fa-2x"></i></a>
-tagline: Audio-AI Researcher at Audioshake.ai, Montpellier
+tagline: Head of Research at Audioshake.ai, Frankfurt, Germany
 
 features:
   - title: Music Processing
@@ -22,21 +22,21 @@ features:
   - title: Audio-AI
     fa: fas fa-brain
     color: "#36A8A7"
-    details: I have a profound understanding of deep audio ml. I am specifically interested in the tasks of <a href="https://github.com/faroit/CountNet"> source count estimation</a> and <a href="https://sigsep.github.io">audio source separation</a>. I am leading the research team at <a href="https://audioshake.ai">Audioshake.ai</a> that created the best performing music separation model.
+    details: I have a profound understanding of deep audio-ml. I am specifically interested in the tasks of <a href="https://github.com/faroit/CountNet"> source count estimation</a> and <a href="https://sigsep.github.io">audio source separation</a>. I am leading the research team at <a href="https://audioshake.ai">Audioshake.ai</a> that created the best performing music separation and lyric transcription models.
   - title: Eco-ML
     fa: fab fa-pagelines
     color: "#88A61F"
-    details: I am involved in <a href="https://plantnet.org">Pl@ntNet</a> as part of <a href="https://www.cos4cloud-eosc.eu">Cos4Cloud 🇪🇺</a> citizen science project. I am also working on ML for ecoacoustics, analyzing sounds of 🦓 using <a href="https://audiolog.fr">mobile audio loggers</a>.
+    details: I was involved in <a href="https://plantnet.org">Pl@ntNet</a> as part of <a href="https://www.cos4cloud-eosc.eu">Cos4Cloud 🇪🇺</a> citizen science project. I was also working on ML for ecoacoustics, analyzing sounds of 🦓 using <a href="https://audiolog.fr">mobile audio loggers</a>.
 footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i> Code for this Website</a>
 ---
 
 # About me
 
-<img src="frs.jpg" width="86" style="float:left; margin-right: 1em;"> Since 2021, I'm head of research at [audioshake.ai](https://www.audioshake.ai) working on audio source separation. Before, I was a postdoctoral researcher at the [Inria and University of Montpellier](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage), France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) (is a joint institution of [Fraunhofer IIS](https://www.iis.fraunhofer.de) and [FAU Erlangen-Nürnberg](https://fau.de)) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled **«Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency»** can be viewed [<i class="fas fa-file-pdf"></i> here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [<i class="fas fa-file-pdf"></i> here](https://github.com/faroit/resume/releases/download/v1.0.2/stoeter_resume.pdf).
+<img src="frs.png" width="86" style="float:left; margin-right: 1em;"> Since 2021, I'm head of research at [audioshake.ai](https://www.audioshake.ai) working on music-ml research. Before, I was a postdoctoral researcher at the [Inria and University of Montpellier](http://www-sop.inria.fr/teams/zenith/pmwiki/pmwiki.php/Main/HomePage), France. I did my Ph.D (Dr.-Ing.) at the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/) (is a joint institution of [Fraunhofer IIS](https://www.iis.fraunhofer.de) and [FAU Erlangen-Nürnberg](https://fau.de)) in Germany supervised by [Bernd Edler](https://www.audiolabs-erlangen.de/fau/professor/edler). My dissertation titled **«Separation and Count Estimation for Audio Sources Overlapping in Time and Frequency»** can be viewed [<i class="fas fa-file-pdf"></i> here](https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13114). Before, I graduated in electrical engineering / communication engineering from the [University of Hannover, Germany](https://www.uni-hannover.de). An extended CV is available [<i class="fas fa-file-pdf"></i> here](https://github.com/faroit/resume/releases/download/v1.0.2/stoeter_resume.pdf).
 
 ## Current Research Interests
 
-- **Deep learning on data hubs**: I am interested multi-modal auto-encoders that can learn the relations between the different modalities to reconstruct or enhance missing or degraded data. Also, I work on multistore and heterogeneous heritage datasets.
+- **Deep learning on data hubs**: I am interested multi-modal foundation models that can learn the relations between the different modalities to reconstruct or enhance missing or degraded data.
 
 - **User-centered AI for audio data**: I want to develop new methods and tools for users with domain knowledge to deliver interpretable audio models. Furthermore, _evaluation_ of audio processing tasks is often done in a computational manner, due to the lack of expertise from signal processing researchers in organizing perceptual evaluation campaigns.
 
@@ -51,8 +51,18 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 # Scientific Service
 
+## Editing
+
+- **Journals**: Topic Editor for ML-Audio for the [Journal of Open Source Software](https://joss.theoj.org/papers/edited_by/@faroit).
+
+## Reviewing
+
+- **Journals:** [Journal of Open Source Software](https://joss.theoj.org/papers/reviewed_by/@faroit), IEEE [Transaction in Audio, Speech and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655), [Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [EURASIP](https://www.eurasip.org/),
+- **Conferences:** [ISMIR](https://www.ismir.net), [ICASSP](http://ieeeicassp.org/), [EUSIPCO](https://eusipco2020.org/), [DAFx](https://www.dafx.de/)
+
 ## Student Supervision
 
+- Laura Ibáñez Martínez, Master Student, Co-Supervision: Master thesis: "MIDI-AudioLDM: MIDI-Conditional Text-to-Audio Synthesis Using ControlNet on AudioLDM"
 - Johannes Imort, Master student, RWTH Aachen (Germany), Internship _"Sound Activity Detection"_ (ongoing).
 - Yeong-Seok Jeong and [Jinsung Kim](https://onedas.github.io/), Master students, Korea University, (Winter 2022/2023) Internship on _"Unsupervised Music Separation"_ (Summer 2022).
 - Michael Tänzer, PhD student, Fraunhofer IDMT (Germany), (Summer 2021), Internship on audio tagging.
@@ -66,15 +76,6 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 - [Aravindh Krishnamoorty](https://www.idc.tf.fau.de/person/aravindh-krishnamoorthy), Master, Internship, 2014
 - Ercan Berkan, Master Thesis, (Bilkent University, Turkey), _"Music Instrument Source Separation"_, 3/2013
 - Shujie Guo, Master, Research Internship, (FAU Erlangen-Nürnberg, Germany)
-
-## Reviewing
-
-- **Journals:** IEEE [Transaction in Audio, Speech and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655), [Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [EURASIP](https://www.eurasip.org/), [Journal of Open Source Software](https://joss.theoj.org/papers/reviewed_by/@faroit)
-- **Conferences:** [ICASSP](http://ieeeicassp.org/), [EUSIPCO](https://eusipco2020.org/), [DAFx](https://www.dafx.de/), [ISMIR](https://www.ismir.net).
-
-## Editing
-
-- **Journals**: Topic Editor for ML-Audio for the [Journal of Open Source Software](https://joss.theoj.org/papers/edited_by/@faroit).
 
 ## Teaching
 
