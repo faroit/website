@@ -57,31 +57,32 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ## Reviewing
 
-- **Journals:** [Journal of Open Source Software](https://joss.theoj.org/papers/reviewed_by/@faroit), IEEE [Transaction in Audio, Speech and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655), [Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [EURASIP](https://www.eurasip.org/),
-- **Conferences:** [ISMIR](https://www.ismir.net), [ICASSP](http://ieeeicassp.org/), [EUSIPCO](https://eusipco2020.org/), [DAFx](https://www.dafx.de/)
+- **Journals:** [Journal of Open Source Software](https://joss.theoj.org/papers/reviewed_by/@faroit), ~~IEEE [Transaction in Audio, Speech and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655),~~ ~~[Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97)~~, [EURASIP](https://www.eurasip.org/),
+- **Conferences:** [ISMIR](https://www.ismir.net), ~~[ICASSP](http://ieeeicassp.org/)~~, [EUSIPCO](https://eusipco2020.org/), [DAFx](https://www.dafx.de/)
 
 ## Student Supervision
 
-- Laura Ibáñez Martínez, Master Student, Co-Supervision: Master thesis: "MIDI-AudioLDM: MIDI-Conditional Text-to-Audio Synthesis Using ControlNet on AudioLDM"
-- Johannes Imort, Master student, RWTH Aachen (Germany), Internship _"Sound Activity Detection"_ (ongoing).
-- Yeong-Seok Jeong and [Jinsung Kim](https://onedas.github.io/), Master students, Korea University, (Winter 2022/2023) Internship on _"Unsupervised Music Separation"_ (Summer 2022).
+- [Laura Ibáñez Martínez](https://www.linkedin.com/in/laura-ibnz), Master Student, Co-Supervision: Master thesis: "MIDI-AudioLDM: MIDI-Conditional Text-to-Audio Synthesis Using ControlNet on AudioLDM" [<i class="fas fa-file-pdf"></i> Thesis](https://lauraibnz.github.io/docs/TFM.pdf), Summer 2023
+- [Johannes Imort](https://twitter.com/joimort), Master student, RWTH Aachen (Germany), Internship _"Sound Activity Detection"_. Winter 2022
+- [Jinsung Kim](https://onedas.github.io/) and Yeong-Seok Jeong, Master students, Korea University, (Winter 2022/2023) Internship on _"Unsupervised Music Separation"_ (Summer 2022).
 - Michael Tänzer, PhD student, Fraunhofer IDMT (Germany), (Summer 2021), Internship on audio tagging.
 - [Lucas Mathieu](https://synergy.st-andrews.ac.uk/cbd/person/lm354/), Master student, AgroParistech (France), Master thesis _"Listening to the Wild"_ (03/2020). Theoretical research on self-supervised learning using data from animal-born loggers ([MUSE project](https://muse.edu.umontpellier.fr/)). Lucas was accepted as a PhD student after master thesis.
-- Clara Jacintho and Delton Vaz, Bachelor Thesis, PolyTech Montpellier (France), _"Machine Learning for Audio on the Web"_ (12/2019). Research on web based separation architectures. Resulted in a paper submitted to the [Web Audio Conference 2021](https://webaudioconf2021.com).
+- [Clara Jacintho](https://www.linkedin.com/in/clarajacintho/) and Delton Vaz, Bachelor Thesis, PolyTech Montpellier (France), _"Machine Learning for Audio on the Web"_ (12/2019). Research on web based separation architectures. Resulted in a paper submitted to the [Web Audio Conference 2021](https://webaudioconf2021.com).
 - [Wolfgang Mack](https://www.audiolabs-erlangen.de/fau/assistant/mack), Master Thesis (FAU Erlangen-Nürnberg, Germany), _"Investigations on Speaker Separation using Embeddings obtained by Deep Learning"_, (05/2017), Wolfgang was accepted as PhD student after master thesis.
 - [Erik Johnson](https://ca.linkedin.com/in/ecmjohnson), [DAAD](https://www.daad.de/rise/en/) Research internship, (Carleton University, Canada), [_"Open-Source Implementation of Multichannel BSSEval in Python"_](https://github.com/craffel/mir_eval/pull/199) (03/2014).
 - [Nils Werner](https://nils-werner.github.io/), Master Thesis, (FAU Erlangen-Nürnberg, Germany), _"Parameter Estimation for Time-Varying Harmonic Audio Signals"_, (02/2014), Nils was accepted as PhD student after master thesis.
-- Jeremy Hunt, [DAAD](https://www.daad.de/rise/en/) research internship, (Rice University, USA)
+- [Jeremy Hunt](https://www.linkedin.com/in/jeremy-hunt-94204b85/), [DAAD](https://www.daad.de/rise/en/) research internship, (Rice University, USA)
 - Bufei Liu, Master, Research Internship (Shanghai University, China), 2014.
 - [Aravindh Krishnamoorty](https://www.idc.tf.fau.de/person/aravindh-krishnamoorthy), Master, Internship, 2014
 - Ercan Berkan, Master Thesis, (Bilkent University, Turkey), _"Music Instrument Source Separation"_, 3/2013
-- Shujie Guo, Master, Research Internship, (FAU Erlangen-Nürnberg, Germany)
+- [Shujie Guo](https://www.linkedin.com/in/shujieguo), Master, Research Internship, (FAU Erlangen-Nürnberg, Germany)
 
 ## Teaching
 
 ### Graduate Programs
 
-- **2021**: [Lecture: Selected Topics in Deep Learning for Audio, Speech, and Music Processing](https://audiolabs-erlangen.de/fau/professor/mueller/teaching/2021s_dla), Music Source Separation, University of Erlangen (Germany).
+- **2024**: Guest-Lecture: "Is music separation interesting in the age of generative AI?", Music Information Retrieval (MIR) program, Master-2, Telecom-ParisTech
+- **2021**: [Guest-Lecture: Selected Topics in Deep Learning for Audio, Speech, and Music Processing](https://audiolabs-erlangen.de/fau/professor/mueller/teaching/2021s_dla), Music Source Separation, University of Erlangen (Germany).
 - **2020**: [Research Internship](https://www.polytech.umontpellier.fr/partenariats/stages-et-projets) (Master, Stage 5), PolyTech Montpellier
 - **2018, 2019**: Introduction to Deep Learning, Master 2, PolyTech Montpellier
 - **2016**: [Reproducible Audio Research Seminar](https://github.com/audiolabs/APSRR-2016), University of Erlangen (Germany)
@@ -90,7 +91,7 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ### Talks
 
-- **2023**: "Music Source Separation: Is it solved yet?", ParisTech, Paris (France) [Slides](https://faroit.com/slides-paristech23)
+- **2023**: Invited talk: "Music Source Separation: Is it solved yet?", ParisTech, Paris (France) [Slides](https://faroit.com/slides-paristech23)
 - **2020**: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides (PDF)](https://sigsep.github.io/AES2020_CurrentTrendsInSourceSeparation.pdf) [Video](https://www.youtube.com/watch?v=AB-F2JmI9U4)
 - **2019**: Invited talk at a conference [“Deep learning: From theory to applications”](https://www.lebesgue.fr/content/sem2018-deeplearning) titled “Deep learning for music unmixing”. [Video](https://www.lebesgue.fr/video/2879) [Slides]()
 - **2019**: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fas fa-link"></i> Website</a>
