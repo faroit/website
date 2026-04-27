@@ -91,7 +91,9 @@ footer: <a href="https://github.com/faroit/website"><i class="fab fa-github"></i
 
 ### Talks
 
-- **2023**: Invited talk: "Music Source Separation: Is it solved yet?", ParisTech, Paris (France) [Slides](https://faroit.com/slides-paristech23)
+- **2026**: Invited industry talk, Music Information Retrieval (MIR) program, Master-2, Telecom-ParisTech, Paris (France)
+- **2025**: Invited research talk and Q&A hosted by [Kazuyoshi Yoshii](http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/), Kyoto University, Kyoto (Japan)
+- **2023**: Invited talk: "Music Source Separation: Is it solved yet?", ParisTech, Paris (France) [Slides](https://faroit.com/slides-paristech23) [Event page](https://adasp.telecom-paris.fr/resources/2023-02-09-talk-stoter/)
 - **2020**: Invited talk at AES Symposium ["AES Virtual Symposium: Applications of Machine Learning in Audio"](https://www.aes.org/events/2020/learning/) titled "Current Trends in Audio Source Separation". [Slides (PDF)](https://sigsep.github.io/AES2020_CurrentTrendsInSourceSeparation.pdf) [Video](https://www.youtube.com/watch?v=AB-F2JmI9U4)
 - **2019**: Invited talk at a conference [“Deep learning: From theory to applications”](https://www.lebesgue.fr/content/sem2018-deeplearning) titled “Deep learning for music unmixing”. [Video](https://www.lebesgue.fr/video/2879) [Slides]()
 - **2019**: Tutorial at [EUSIPCO 2019](http://eusipco2019.org/): _"Deep learning for music separation"_. <a href="https://sigsep.github.io/tutorials/"><i class="fad fa-presentation"></i> Slides</a> <a href="https://sigsep.github.io/tutorials/"><i class="fas fa-link"></i> Website</a>
