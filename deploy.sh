@@ -6,6 +6,8 @@
 set -e
 
 # build
+# Node 17+ removed legacy OpenSSL providers that vuepress 1.x's webpack relies on
+export NODE_OPTIONS=--openssl-legacy-provider
 npm run docs:build
 
 # navigate into the build output directory
