@@ -5,13 +5,12 @@
 # abort on errors
 set -e
 
-# build
-# Node 17+ removed legacy OpenSSL providers that vuepress 1.x's webpack relies on
-export NODE_OPTIONS=--openssl-legacy-provider
-npm run docs:build
+# install and build the Vite site
+./scripts/npm-local.sh install
+./scripts/npm-local.sh run build:direct
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd dist
 
 # if you are deploying to a custom domain
 echo 'faroit.com' > CNAME
