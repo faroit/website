@@ -8,7 +8,7 @@ const socials = [
     href: "https://scholar.google.com/citations?user=7HsSdqwAAAAJ&hl=en",
     label: "Scholar",
   },
-  { href: "mailto:fabian-robert.stoter@inria.fr", label: "Email" },
+  { href: "mailto:farodotit@gmail.com", label: "Email" },
   { href: "https://orcid.org/0000-0002-2534-1165", label: "ORCID" },
 ]
 
